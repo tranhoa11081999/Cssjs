@@ -3,6 +3,7 @@ function FSAddOriginalLink(){
     var selection;
     selection = window.getSelection();
     var pagelink = "<br/><br/>MUON COPY THI VAO DAY : <a href='https://fixtannoi.blogspot.com/'>https://fixtannoi.blogspot.com/"+document.location.pathname+"</a>";
+    var pagelink = "<br/><br/>MUON GI LIEN HE: 0969.050.250;
     var copytext = pagelink;
     var newdiv = document.createElement('div');
     newdiv.style.position='absolute';
